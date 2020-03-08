@@ -1,0 +1,36 @@
+rootProject.name = 'HenCoderStudy'
+include ':app'
+
+// 属性动画和硬件加速
+include ':propertyanimation'
+
+// 图形位置测量及图形混合模式的使用
+include ':drawandxfermode'
+
+// ConstraintLayout
+include ':constraintlayout'
+
+//MotionLayout
+include ':motionlayoutdemo'
+
+//文字测量和几何变换
+include ':textandtransformation'
+
+//Kotlin上手、Kotlin进阶
+include ':kotlinstudy'
+include ':base'
+include ':lesson'
+
+//Java 的多线程简介及线程同步的本质原理
+include ':javathread'
+
+//线程通信原理及Android多线性
+include ':androidthread'
+
+//泛型之一：看懂、上手和会用
+include ':genericitystudy'
+
+//插件化
+include ':pluginnable'
+include ':pluginnable-plugin'
+include ':pluginbase'

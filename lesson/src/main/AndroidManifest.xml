@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhoujian.lesson">
+
+    <application>
+        <activity
+            android:name="com.zhoujian.lesson.activity.LessonActivity"
+            android:theme="@style/LessonTheme" />
+    </application>
+</manifest>
