@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         //option+enter
         initView()
         clickEvent()
+
     }
 
 
