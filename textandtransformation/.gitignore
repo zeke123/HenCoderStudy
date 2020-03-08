@@ -1,3 +1,4 @@
 
 /build
-/textandtransformation/textandtransformation.iml
+.iml
+*.iml
