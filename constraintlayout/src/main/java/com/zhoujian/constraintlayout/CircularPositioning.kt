@@ -1,6 +1,5 @@
 package com.zhoujian.constraintlayout
 
-
 import android.animation.ValueAnimator
 import android.animation.ValueAnimator.INFINITE
 import androidx.appcompat.app.AppCompatActivity
@@ -40,7 +39,6 @@ class CircularPositioning : AppCompatActivity() {
                 moon.requestLayout()
             }
         }
-
         sun.setOnClickListener {
             earthAnimator.start()
             moonAnimator.start()
