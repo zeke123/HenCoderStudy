@@ -8,7 +8,6 @@ import com.zhoujian.textandtransformation.R
 
 class MainActivity : AppCompatActivity() {
 
-
     private lateinit var button1: Button
     private lateinit var button2: Button
     private lateinit var button3: Button
