@@ -34,4 +34,9 @@ include ':genericitystudy'
 include ':pluginnable'
 include ':pluginnable-plugin'
 include ':pluginbase'
+
+//Java I/O H和 Okio
 include ':IODemo'
+
+//从Retrofit 的原理来看HTTP
+include ':retrofitdemo'
