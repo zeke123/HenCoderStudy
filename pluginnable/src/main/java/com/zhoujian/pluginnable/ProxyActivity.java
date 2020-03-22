@@ -4,12 +4,8 @@ import android.app.Activity;
 import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.os.Bundle;
-
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.zhoujian.pluginbase.IRemoteActivity;
-
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Constructor;

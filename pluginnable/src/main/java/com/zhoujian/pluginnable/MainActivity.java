@@ -3,10 +3,8 @@ package com.zhoujian.pluginnable;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -20,10 +18,7 @@ public class MainActivity extends AppCompatActivity {
                 loadPlugin();
             }
         });
-
     }
-
-
     private void loadPlugin() {
         Intent intent = new Intent(this, ProxyActivity.class);
         intent.putExtra("className", "com.zhoujian.pluginnable_plugin.MainActivity");

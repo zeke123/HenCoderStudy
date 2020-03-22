@@ -5,12 +5,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import dalvik.system.PathClassLoader;
-
 public class MainActivity extends BaseActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main_plugin);
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {

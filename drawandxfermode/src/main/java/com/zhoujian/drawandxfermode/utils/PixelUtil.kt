@@ -10,6 +10,4 @@ object PixelUtil {
         dp,
         Resources.getSystem().displayMetrics
     )
-
-
 }
