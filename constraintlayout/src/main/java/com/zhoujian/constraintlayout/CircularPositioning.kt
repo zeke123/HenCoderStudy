@@ -14,6 +14,7 @@ class CircularPositioning : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_circular_positioning)
 
+
         val earth = findViewById<View>(R.id.earth)
         val moon = findViewById<View>(R.id.moon)
         val sun = findViewById<View>(R.id.sun)
