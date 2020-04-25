@@ -12,6 +12,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+        GlobalScope.launch(Dispatchers.IO) {
+            method()
+        }
+
         GlobalScope.launch(Dispatchers.Main) {
             io1()
             main1()
@@ -19,6 +25,12 @@ class MainActivity : AppCompatActivity() {
             main2()
             io3()
             main3()
+        }
+    }
+
+    private suspend fun method() {
+        withContext(Dispatchers.IO) {
+            println("在后台开启协程，method() in thread---${Thread.currentThread().name}")
         }
     }
 
